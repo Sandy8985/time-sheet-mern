@@ -1,0 +1,92 @@
+.registrationr {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22vw;
+  padding: 50px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px;
+}
+.links .eregister {
+  text-align: center;
+  width: 290px;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: #17388e;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(210, 209, 209);
+}
+.links .elogin {
+  text-align: center;
+  width: 290px;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: white;
+  color: #17388e;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(210, 209, 209);
+}
+.registrationr .links .elogin:hover {
+  background-color: #17388e;
+  color: white;
+}
+
+.registerform {
+  width: 30%;
+  background-color: #17388e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.registerform h2 {
+  color: white;
+  font-size: 17px;
+}
+.registerform input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.registerform p {
+  display: flex;
+  gap: 6px;
+  font-size: 15px;
+  color: white;
+}
+.registerform a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+}
+.registerform button {
+  width: 90%;
+  margin-left: -1px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 6px;
+  color: white;
+  background-color: #407bff;
+  font-size: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.Herosec {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0px 110px;
+  gap: 4vw;
+}
+.Herosec img{
+    width: 106%;
+}
+
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.registration .eregister,.elogin{
+    text-align: center;
+    width: 290px;
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: white;
+    color: #17388e;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(210, 209, 209);
+}
+.registration .elogin:hover{
+    background-color: #17388e;
+    color: white;
+}
+.registration .eregister:hover{
+    background-color: #17388e;
+    color: white;
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+

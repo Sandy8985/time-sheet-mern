@@ -1,0 +1,47 @@
+.payslips{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 30px;
+}
+.payslips .left{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+.payslips .months{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.payslips .months button{
+    font-size: 15px;
+    margin-left: 0;
+    width: 220px;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1.3px solid #17388E;
+}
+.payslips .left .details h3{
+    font-size: 15px;
+}
+.payslips .img-section{
+    width: 60%;
+    height: 101vh;
+    border: 2px solid #17388E;
+}
+.payslips .download{
+    margin-left: 0;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #407BFF;
+}
